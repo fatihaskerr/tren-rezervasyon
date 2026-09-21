@@ -1,0 +1,9 @@
+﻿namespace tren_rezervasyon.Modeller
+{
+    public class YerlesimAyrinti
+    {
+        public string VagonAdi { get; set; } = string.Empty;
+
+        public int KisiSayisi { get; set; }
+    }
+}
